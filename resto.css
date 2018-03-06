@@ -8,9 +8,9 @@ body {
   line-height: 1.3em;
   margin: auto;
   width: 80%;
-  border-style:solid; 
-  border-color:white ;
+  
 }
+
 
 header {
   background-color:  #353535;
@@ -55,12 +55,30 @@ footer {
   font-style: italic;
   padding: 2px;
   text-align: center;
+
 }
 
 main {
   margin: 25px 0;
   padding: 0 25px;
+
 }
+
+h1 {
+  font-size: 1.4em;
+}
+ #left, #right {
+  background:   #FFFFFF ;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 3px;
+    }
+    #left { left: 80px; }
+    #right { right: 80px; }
+    
+  
 
 h1 {
   font-size: 1.4em;
